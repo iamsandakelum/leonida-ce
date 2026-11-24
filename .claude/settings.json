@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m compileall:*)",
+      "Bash(python -I make_game.py --help)",
+      "Bash(python -I make_game.py --find)",
+      "Bash(python -I tests/:*)",
+      "Bash(python -m unittest:*)",
+      "Bash(python -I scripts/run_semantic_tests.py:*)",
+      "Bash(python -I scripts/check_no_game_data.py:*)",
+      "Bash(python -I scripts/dev.py:*)",
+      "Bash(python -I tools/vk_subgroup_info.py:*)",
+      "Bash(node --test:*)",
+      "Bash(gh issue list:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(git show:*)",
+      "Bash(git fetch:*)"
+    ]
+  }
+}
